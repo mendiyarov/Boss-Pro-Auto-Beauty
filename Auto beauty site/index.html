@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boss-Pro Auto Beauty | Премиальная автомойка в Астане</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts (Poppins + Playfair Display) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+   <!-- Навигация -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="logo-text">BOSS-PRO</span> <span class="logo-subtext">AUTO BEAUTY</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Галерея</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Герой-секция с видео -->
+<!-- Hero-секция (без изменений) -->
+<header class="hero-section">
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/video/car-wash.mp4" type="video/mp4">
+  </video>
+  <div class="video-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1>Экспертный уход для вашего авто</h1>
+      <p class="lead">Идеальная чистота и технологии премиум-класса</p>
+      <a href="https://wa.me/77789009909" class="btn btn-hero-gold">
+        <i class="fab fa-whatsapp me-2"></i> Записаться онлайн
+      </a>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Секция "О нас" -->
+<section id="about" class="py-5 about-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+        <!-- Иконка вместо фото -->
+        <div class="about-icon">
+          <i class="fas fa-medal"></i>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <p class="about-text">
+          <strong>Boss-Pro Auto Beauty</strong> — это премиальная автомойка в Астане, где каждая деталь имеет значение. 
+          Мы объединили передовые технологии ухода за автомобилем и европейские стандарты обслуживания.
+        </p>
+        <ul class="about-features">
+          <li><i class="fas fa-check-circle me-2"></i> Просторная зона на 5 автомобилей одновременно</li>
+          <li><i class="fas fa-check-circle me-2"></i> Комфортабельный зал ожидания с кофе-станцией</li>
+          <li><i class="fas fa-check-circle me-2"></i> Оборудование премиум-класса (Karcher, Sonax)</li>
+          <li><i class="fas fa-check-circle me-2"></i> Экологичные моющие средства</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Секция "Услуги" -->
+<section id="services" class="py-5 services-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Наши услуги</h2>
+    <div class="row g-4">
+      <!-- Услуга 1: Бесконтактная мойка -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-spray-can"></i>
+          </div>
+          <h3>Бесконтактная мойка</h3>
+          <p>Щадящая очистка кузова без риска повреждений</p>
+          <span class="price-badge">от 6000 ₸</span>
+        </div>
+      </div>
+      
+      <!-- Услуга 2: Химчистка -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-soap"></i>
+          </div>
+          <h3>Химчистка салона</h3>
+          <p>Глубокая очистка сидений, ковров и панелей</p>
+          <span class="price-badge">от 25000 ₸</span>
+        </div>
+      </div>
+      
+      <!-- Услуга 3: Полировка кузова -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-roller"></i>
+          </div>
+          <h3>Полировка кузова</h3>
+          <p>Восстановление блеска и удаление царапин</p>
+          <span class="price-badge">от 20000 ₸</span>
+        </div>
+      </div>
+      
+      <!-- Услуга 4: Шиномонтаж -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-cogs"></i> <!-- Иконка шестерёнок (работает в бесплатной версии) -->
+          </div>
+          <h3>Шиномонтаж</h3>
+          <p>Профессиональная замена и балансировка колёс</p>
+          <span class="price-badge">от 8000 ₸</span>
+        </div>
+      </div>
+      
+      <!-- Услуга 5: Автоэлектрика -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Автоэлектрика</h3>
+          <p>Диагностика и ремонт электросистем</p>
+          <span class="price-badge">от 12000 ₸</span>
+        </div>
+      </div>
+      
+      <!-- Услуга 6: Автозвук -->
+      <div class="col-md-4">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-volume-up"></i>
+          </div>
+          <h3>Автозвук</h3>
+          <p>Установка аудиосистем и шумоизоляции</p>
+          <span class="price-badge">от 30000 ₸</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Секция "Галерея" -->
+  <!-- Секция Галереи -->
+<section id="gallery" class="py-5 gallery-section bg-dark">
+  <div class="container">
+    <h2 class="section-title text-center mb-5 text-white">Наши работы</h2>
+    
+    <div class="gallery-slider">
+      <!-- Контейнер для фотографий -->
+      <div class="gallery-track" id="galleryTrack">
+        <!-- Фото 1 -->
+        <div class="gallery-slide">
+          <img src="assets/img/gallery1.png" alt="Авто после полировки" class="img-fluid">
+        </div>
+        <!-- Фото 2 -->
+        <div class="gallery-slide">
+          <img src="assets/img/gallery2.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+        <!-- Фото 3-9 (аналогично) -->
+         <div class="gallery-slide">
+          <img src="assets/img/gallery3.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+        <div class="gallery-slide">
+          <img src="assets/img/gallery4.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+        <div class="gallery-slide">
+          <img src="assets/img/gallery5.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+        <div class="gallery-slide">
+          <img src="assets/img/gallery6.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+        <div class="gallery-slide">
+          <img src="assets/img/gallery7.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+        <div class="gallery-slide">
+          <img src="assets/img/gallery8.png" alt="Мойка двигателя" class="img-fluid">
+        </div>
+      </div>
+      
+      <!-- Кнопки навигации -->
+     <!-- Обновленные кнопки навигации -->
+        <div class="gallery-nav">
+        <button class="gallery-prev btn-gold">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="gallery-next btn-gold">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        </div>
+    </div>
+  </div>
+</section>
+  <!-- Секция "Отзывы" -->
+  <section id="reviews" class="py-5 reviews-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Отзывы клиентов</h2>
+    <div class="reviews-container"> <!-- Новый контейнер -->
+      <!-- Отзыв 1 -->
+      <div class="review-card">
+        <div class="review-header">
+          <div class="review-avatar-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="review-author">
+            <h5>Vyacheslav Afonichev</h5>
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">
+          "Там ребята классно моют. С душой. На совесть. И не дорого в принципе."
+        </p>
+        <div class="review-source">
+          <i class="fab fa-2gis"></i> 2ГИС
+        </div>
+      </div>
+      
+      <!-- Отзыв 2 -->
+      <div class="review-card">
+        <!-- Аналогичная структура -->
+         <div class="review-header">
+          <div class="review-avatar-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="review-author">
+            <h5>Akmoldir Seidaly</h5>
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">
+          "Машинамды осы мойкада жуамын, өзіме үйдің қасы болған соң ыңғайлы, таза жуып береді."
+        </p>
+        <div class="review-source">
+          <i class="fab fa-2gis"></i> 2ГИС
+        </div>
+      </div>
+      
+      <!-- Отзыв 3 -->
+      <div class="review-card">
+        <!-- Аналогичная структура -->
+         <div class="review-header">
+          <div class="review-avatar-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+          <div class="review-author">
+            <h5>Abylai Khan</h5>
+            <div class="review-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <p class="review-text">
+          "Отличная автомойка! Не в первый раз там мою своего железного коня! Ребята знают как обращаться с машиной. "
+        </p>
+        <div class="review-source">
+          <i class="fab fa-2gis"></i> 2ГИС
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Контакты (остаётся без изменений) -->
+ <section id="contacts" class="py-5 contacts-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Контакты</h2>
+    <div class="row g-4">
+      <!-- Блок с адресом и картой -->
+      <div class="col-lg-6">
+        <div class="contact-card">
+          <div class="contact-header">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <h3>Адрес</h3>
+          </div>
+          <p class="contact-text">г. Астана, ул. Сыганак 54/3</p>
+          
+          <!-- Альтернативная карта (используем Google Maps) -->
+          <div class="map-container mt-3">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.1234567890123!2d71.12345678901234!3d51.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA3JzI0LjQiTiA3McKwMDcnMjQuNCJF!5e0!3m2!1sen!2skz!4v1234567890123!5m2!1sen!2skz" 
+              allowfullscreen="" 
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Блок с режимом работы и контактами -->
+      <div class="col-lg-6">
+        <div class="contact-card">
+          <div class="contact-header">
+            <i class="fas fa-clock contact-icon"></i>
+            <h3>Режим работы</h3>
+          </div>
+          <p class="contact-text">Ежедневно, 8:00–23:00</p>
+          
+          <div class="contact-header mt-4">
+            <i class="fab fa-whatsapp contact-icon"></i>
+            <h3>Запись на услуги</h3>
+          </div>
+          
+          <div class="contact-buttons">
+            <a href="https://wa.me/77789009909" class="btn btn-contact">
+              <i class="fab fa-whatsapp me-2"></i> +7 778 900 9909
+            </a>
+            <a href="https://wa.me/77788546978" class="btn btn-contact ">
+              <i class="fab fa-whatsapp me-2"></i> +7 778 854 6978
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
