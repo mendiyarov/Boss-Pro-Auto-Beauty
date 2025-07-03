@@ -49,7 +49,7 @@ boss-pro-auto/
 Клонируйте репозиторий:
 
 bash
-git clone https://github.com/mendiyarov/boss-pro-auto.git
+git clone [https://github.com/mendiyarov/boss-pro-auto.git](https://github.com/mendiyarov/Boss-Pro-Auto-Beauty.git)
 Откройте index.html в браузере.
 
 Или разместите на хостинге (Netlify, Vercel, GitHub Pages).
